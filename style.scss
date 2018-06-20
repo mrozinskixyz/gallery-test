@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
 
 $white: #fff;
 $black: #2e2e2e;
@@ -9,14 +9,15 @@ $footer: #f7f7f7;
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  &::before, &::after {
+  &::before,
+  &::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
   color: $gray;
@@ -80,10 +81,10 @@ nav {
 }
 
 img {
-	width: 100%;
+  width: 100%;
   height: 500px;
   -o-object-fit: cover;
-	object-fit: cover;
+  object-fit: cover;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -124,7 +125,8 @@ img {
   display: none;
 }
 
-.social, .copyright {
+.social,
+.copyright {
   margin: 1rem;
 }
 
@@ -144,7 +146,7 @@ footer {
   }
 }
 
-@media(min-width: $md) {
+@media (min-width: $md) {
   nav ul {
     -webkit-box-pack: right;
     -ms-flex-pack: right;
@@ -158,7 +160,7 @@ footer {
     -ms-transform: none;
     transform: none;
   }
-  
+
   .img-container {
     height: 100%;
     &:hover .img-content-hover {
